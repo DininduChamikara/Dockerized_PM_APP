@@ -1,0 +1,32 @@
+thead {
+  text-align: left;
+  font-size: 18px;
+}
+
+th {
+    padding: 20px;
+}
+
+.action-header{
+    text-align: center;
+}
+
+.ct-data{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.emptyMessage{
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    th{
+        padding: 10;
+        text-align: center;
+    }
+    .ct-data{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

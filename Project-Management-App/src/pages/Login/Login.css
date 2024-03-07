@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.background-img {
+  width: 100%;
+}
+
+.loginform {
+  padding: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-blue);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+
+  .horizontal-section{
+    width: 100%;
+  }
+}

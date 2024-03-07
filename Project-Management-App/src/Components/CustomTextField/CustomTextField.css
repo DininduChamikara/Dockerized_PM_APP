@@ -1,0 +1,8 @@
+.customTextInput {
+  margin: 10px;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-color: var(--border);
+  border-radius: 10px;
+}
