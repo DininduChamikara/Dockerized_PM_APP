@@ -1,11 +1,14 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+require('dotenv').config()
 
 const app = express();
 
-const dbURL =
-  "mongodb+srv://dininduchamikara99:MD2uWQ4UEuVF1eH5@cluster0.umvjphq.mongodb.net/projectManagementDb?retryWrites=true&w=majority";
+// const dbURL =
+//   "mongodb+srv://dininduchamikara99:MD2uWQ4UEuVF1eH5@cluster0.umvjphq.mongodb.net/projectManagementDb?retryWrites=true&w=majority";
+
+const dbURL = process.env.DB_URL;
 
 const connectionParams = {
   useNewUrlParser: true,
